@@ -1,0 +1,17 @@
+name: PR2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - requests
+  - pip
+  - pip:
+      - pymongo
+      - kneed
